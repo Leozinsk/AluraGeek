@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="assets/icones/favicon.svg" type="image/x-icon">
+    <title>Alura Geek</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><img src="assets/imagens/Logo.svg" alt="Logo Alura geek" class="logo"></a>
+        <button class="cabecalho__botao">Login</button>  
+        <div class="busca">
+            <input type="text" placeholder="O que deseja encontrar?" class="barra-pesquisa">
+                <img for="barra-pesquisa" src="assets/icones/lupa.svg" class="lupa">
+        </div>
+        <div class="busca-mobile hidden">
+            <input type="text" placeholder="O  que deseja encontrar?" class="barra-pesquisa-mobile">
+                <img for="barra-pesquisa-mobile" src="assets/icones/lupa.svg" class="lupa-mobile">
+        </div>
+    </header>
+    <main class="container">
+        <section class="detalhes-produto">
+            <img src="assets/imagens/produtos/unsplash_0POwK6iAiRQ@3x.png" alt="" class="detalhes-img">
+            <div class="detalhes-info">
+                <h1 class="detalhes-info__titulo">Produto</h1>
+                <p class="detalhes-info__sub-titulo">R$ 60,00</p>
+                <p class="detalhes-info__descicao">Voluptas voluptatum quibusdam similique,
+                    class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia?
+                    Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada.
+                    Quisque deleniti proin expedita, aliquid litora. Iste recusandae? 
+                    Commodo, quia ridiculus doloribus vero dictum?
+                    Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam</p>
+            </div>
+        </section>
+        <section class=" produtos">
+                <div class="produtos__cabecalho">
+                    <h2 class="produtos__cabecalho__titulo">Produtos similares</h2>
+                </div>
+                <div class="produtos-align">
+                    <div class="produto">
+                        <a href="detalhes-produto.html"><img src="assets/imagens/produtos/unsplash_0POwK6iAiRQ@2x.png" alt="imagem de produto" class="produto__imagem"></a>
+                        <h3 class="produto__titulo">Joystick Xbox</h3>
+                        <p class="produto__texto">R$ 60,00</p>
+                        <a href="produtos.html" class="cabecalho__ver-tudo">Ver tudo</a>
+                    </div>
+                    <div class="produto">
+                        <a href="detalhes-produto.html"><img src="assets/imagens/produtos/unsplash_bUgaIaZysH0@2x.png" alt="imagem de produto" class="produto__imagem"></a>
+                        <h3 class="produto__titulo">Joystick Switch</h3>
+                        <p class="produto__texto">R$ 60,00</p>
+                        <a href="produtos.html" class="cabecalho__ver-tudo">Ver tudo</a>
+                    </div>
+                    <div class="produto">
+                        <a href="detalhes-produto.html"><img src="assets/imagens/produtos/unsplash_sYVY_ZKwaxU@2x.png" alt="imagem de produto" class="produto__imagem"></a>
+                        <h3 class="produto__titulo">Boneco Sonic</h3>
+                        <p class="produto__texto">R$ 60,00</p>
+                        <a href="produtos.html" class="cabecalho__ver-tudo">Ver tudo</a>
+                    </div>
+                    <div class="produto">
+                        <a href="detalhes-produto.html"><img src="assets/imagens/produtos/unsplash_fMP-oCze3AY@2x.png" alt="imagem de produto" class="produto__imagem"></a>
+                        <h3 class="produto__titulo">Poster Atari</h3>
+                        <p class="produto__texto">R$ 60,00</p>
+                        <a href="produtos.html" class="cabecalho__ver-tudo">Ver tudo</a>
+                    </div>
+                    <div class="produto hidden">
+                        <a href="detalhes-produto.html"><img src="assets/imagens/produtos/unsplash_MxVkWPiJALs@2x.png" alt="imagem de produto" class="produto__imagem"></a>
+                        <h3 class="produto__titulo">Camisa Burger</h3>
+                        <p class="produto__texto">R$ 60,00</p>
+                        <a href="produtos.html" class="cabecalho__ver-tudo">Ver tudo</a>
+                    </div>
+                    <div class="produto hidden">
+                        <a href="detalhes-produto.html"><img src="assets/imagens/produtos/unsplash_r27umXAelDc@2x.png" alt="imagem de produto" class="produto__imagem"></a>
+                        <h3 class="produto__titulo">Pelúcia Pikachu</h3>
+                        <p class="produto__texto">R$ 60,00</p>
+                        <a href="produtos.html" class="cabecalho__ver-tudo">Ver tudo</a>
+                    </div> 
+                </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__align">
+            <nav class="navegacao">
+                <img src="assets/imagens/Logo.svg" alt="Logo Alura Geek" class="rodape__logo">
+                <ul class="rodape__lista">
+                    <a href="">
+                        <li class="rodape__links">Quem somos nós</li>
+                    </a>
+                    <a href="">
+                        <li class="rodape__links">Política de privacidade</li>
+                    </a>
+                    <a href="">
+                        <li class="rodape__links">Programa de fidelidade</li>
+                    </a>
+                    <a href="">
+                        <li class="rodape__links">Nossas lojas</li>
+                    </a>
+                    <a href="">
+                        <li class="rodape__links">Quero ser franqueado</li>
+                    </a>
+                    <a href="">
+                        <li class="rodape__links">Anuncie aqui</li>
+                    </a>
+                </ul>
+            </nav>
+            <section class="contato">
+                <h4 class="contato__titulo">Fale conosco</h4>
+                <form class="rodape__form">
+                    <input type="text" class="contato__nome" placeholder="Nome" title="Nome">
+                    <input type="text" class="contato__mensagem" placeholder="Escreva sua" title="Escreva sua mensagem">
+                    <input type="submit" class="contato__botao" value="Enviar mensagem">
+                </form>
+            </section>
+        </div>
+        <section class="creditos">
+            Desenvolvido por Leonardo D'artagnan 2022
+        </section>
+    </footer>
+    <script src="js/apps.js"></script>
+</body>
+
+
+</html>
