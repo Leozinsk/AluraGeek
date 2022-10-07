@@ -145,6 +145,7 @@ select {
 .rodape {
   background-color: #EAF2FD;
   color: #464646;
+  -webkit-appearance: none;
 }
 .rodape .rodape__align .navegacao {
   padding: 1rem;
