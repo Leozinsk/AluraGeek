@@ -295,6 +295,14 @@ body {
     width: 393px;
   }
 }
+@media screen and (max-width: 767px) {
+  .rodape .rodape__align .contato {
+    width: 93vw;
+  }
+  .rodape .rodape__align .contato .rodape__form .contato__mensagem.contato__nome {
+    width: 100%;
+  }
+}
 @media screen and (min-width: 767px) and (max-width: 1400px) {
   .rodape {
     display: flex;
