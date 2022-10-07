@@ -295,14 +295,6 @@ body {
     width: 393px;
   }
 }
-@media screen and (max-width: 767px) {
-  .rodape .rodape__align .contato {
-    width: 93vw;
-  }
-  .rodape .rodape__align .contato .rodape__form .contato__mensagem.contato__nome {
-    width: 100%;
-  }
-}
 @media screen and (min-width: 767px) and (max-width: 1400px) {
   .rodape {
     display: flex;
@@ -456,22 +448,6 @@ body {
 }
 
 @media screen and (max-width: 708px) {
-  .container .produtos .produtos-align {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    row-gap: 1rem;
-    width: 100%;
-  }
-  .container .produtos .produtos-align .produto {
-    max-width: 360px;
-    width: 100%;
-  }
-  .container .produtos .produto-grid.align-wrap .produto {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 708px) {
   .container .produtos .produto-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -484,6 +460,9 @@ body {
     width: 100%;
   }
   .container .produtos .produto-grid.align-wrap .produto {
+    width: 100%;
+  }
+  .container .produtos .produto-grid.align-wrap .produto a .produto__imagem {
     width: 100%;
   }
 }
@@ -505,6 +484,7 @@ body {
   .container .produtos .produto-grid .produto .produto__imagem {
     min-height: 160px;
     max-height: 190px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
